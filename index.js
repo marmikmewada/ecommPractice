@@ -6,7 +6,8 @@ const routes = require('./routes/routes');
 // server
 const app = express();
 const port = 3000;
-
+//sign in
+let signInStatus = false;
 // db
 const uri = "mongodb+srv://marmik:jinal@cluster0.go7e9es.mongodb.net/ecom";
 const dbConnect = mongoose
